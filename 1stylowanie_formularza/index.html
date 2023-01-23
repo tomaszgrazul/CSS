@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Zadanie1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="POST">
+        <label for="name" id="namel">Imie:</label>
+        <input type="text" name="name" id="name">
+        <label for="surname" id="surnamel">Nazwisko:</label>
+        <input type="text" name="surname" id="surname">
+        <label for="mail" id="maill">mail:</label>
+        <input type="email" name="email" id="mail">
+        <label for="phone" id="phonel">Numer telefonu:</label>
+        <input type="tel" name="phone" id="phone">
+        
+        <label for="city-choice">Wybierz miasto:</label>
+        <select name="city" id="city-choice">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select>
+
+        <label for="sexf" id="sexfl">Podaj płeć</label>
+        <label><input type="radio" name="sex" value="kobieta" id="sexf">Kobieta</label>
+        <label for="sexm" id="sexml"></label>
+        <label><input type="radio" name="sex" value="mężczyzna" id="sexm">Mężczyzna</label>
+        
+        <label for="message">Wiadomość:</label>
+        <label><textarea name="message" id="message" placeholder="Treść wiadomości"></textarea></label>
+
+        <input type="checkbox" name="agreement" value="jest zgoda" id="agreement">
+        <label for="agreement" id="agreementl">Wyrażam zgodę na przetwarzanie danych osobowych</label>
+
+        <button type="submit" class="button" value="wysyłanie"> Wyślij </button>
+
+    </form>
+
+</body>
+</html>
