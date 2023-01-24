@@ -1,0 +1,52 @@
+.box{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.radius{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    left: -465px;
+    bottom: 0px;
+    margin: 38px;
+    display: inline-block;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.black{
+    background-color: black;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.pink{
+    background-color: pink;
+}
