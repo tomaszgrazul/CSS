@@ -1,0 +1,41 @@
+div{
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    
+}
+
+p{
+
+    font-size: 100px;
+    position: absolute;
+    top: 0px;
+    left: 90px;
+}
+p:nth-child(1){
+    animation-name: resize;
+    animation-duration: 1s;
+    color: black;
+}
+
+p:nth-child(2){
+    animation-name: resize;
+    animation-duration: 6s;
+    color: black;
+}
+
+p:nth-child(3){
+    animation-name: resize;
+    animation-duration: 12s;
+    color: black;
+}
+
+@keyframes resize {
+    50% {
+        color: yellow;
+    }
+}
+

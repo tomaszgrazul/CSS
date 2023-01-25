@@ -2,11 +2,27 @@ div{
     background-color: black;
     width: 300px;
     height: 200px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    overflow: hidden;
+}
+p{
+    color: yellow;
+    font-size: 100px;
+    position: absolute;
+    top: 0px;
+    left: 90px;
     animation-name: resize;
     animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-iteration-count: 3;
+}
+.aa{
 
+}
+.ab{
+   
 }
 
 @keyframes resize {
