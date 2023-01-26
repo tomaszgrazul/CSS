@@ -1,0 +1,38 @@
+.container{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+p{
+    color: antiquewhite;
+}
+
+.header{
+    background-color: red;
+    flex-basis: 100%;
+}
+
+.asideleft{
+    background-color: green;
+    flex-basis: 15%;
+}
+
+.lorem{
+    background-color: aquamarine;
+    flex-basis: 70%;
+}
+
+.asideright{
+    background-color: pink;
+    flex-basis: 15%;
+}
+
+.footer{
+    background-color: blueviolet;
+    flex-basis: 100%;
+}
+
