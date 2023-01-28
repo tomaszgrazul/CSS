@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+}
+.container{
+    background-color: black;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cyfra{
+    font-size: 100px;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    top: 0px;       /* cyfry wyświetlają się czarne i ukrywam je z boku*/
+    left: 0px;     /*bez tego przesunięcia czarne będą przebijać przez żółte ponieważ są cały czas wyświetlane*/
+    /*border: 1px solid blue;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: animation;
+    animation-duration: 1s;
+
+}
+.text{
+    /*border: 1px solid blue;*/
+    font-size: 60px;
+    animation-name: animation;
+    animation-duration: 1s;
+ 
+}
+div:nth-child(1){
+    animation-delay: 1s;  
+}
+div:nth-child(2){
+    animation-delay: 2s;
+}
+div:nth-child(3){
+    animation-delay: 3s;   
+}
+div:nth-child(4){
+    animation-delay: 4s;   
+}
+div:nth-child(5){
+    animation-delay: 5s;   
+}
+div:nth-child(6){
+    animation-delay: 6s;   
+}
+div:nth-child(7){
+    animation-delay: 7s;    
+}
+div:nth-child(8){
+    animation-delay: 8s;   
+}
+div:nth-child(9){
+    animation-delay: 9s;   
+}
+div:nth-child(10){
+    animation-delay: 10s;   
+}
+.text{
+    animation-delay: 11s;
+}
+
+@keyframes animation {
+    0%{
+       top: 100px;
+       left: 120px;
+    }
+    100% {
+        color: yellow;
+        top: 100px;
+        left: 120px;
+    }
+
+
+}
+
