@@ -86,6 +86,14 @@ h2{
     background-color: #007bff;
 }
 
+label[for="drop-nav"]{
+    display: none;
+}
+
+#drop-nav{
+    display: none;
+}
+
 .main-menu ul{
     margin: 0;
     padding: 10px 0;
@@ -188,3 +196,87 @@ h2{
     height: 100px;
 }
 
+.social-links{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.social-links .social-link{
+    font-size: 2.5em;
+    color: #007bff;
+    transition: all 0.3s;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.social-links .social-link:hover{
+    color: #777;
+}
+
+.main-footer{
+    background-color: #f2f1ed;
+    padding: 30px;
+    text-align: center;
+    color: #777;
+}
+
+@media (max-width: 1200px){
+    .container{
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 992px){
+    .container{
+        max-width: 768px;
+    }
+    .portfolio-wrapper .portfolio-item{
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        max-width: 95%;
+    }
+    .portfolio-wrapper .portfolio-item{
+        flex-basis: 10%0%;
+    }   
+}
+
+@media (max-width: 480px){
+    .main-header .main-header-content h1{
+        font-size: 3em;
+    }
+    .about .about-img{
+        max-height: 200px;
+        max-width: 200px;
+    }
+    .contact input[type="text"], 
+    .contact input[type="email"]{
+        flex-basis: 100%;
+    }
+
+    label[for="drop-nav"]{
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: right;
+    cursor: pointer;
+    }
+
+    .main-menu ul{
+        display: none;
+    }
+    #drop-nav:checked + ul{
+        display: block;
+    }
+
+    .main-menu ul .menu-item{
+        display: block;
+        text-align: right;
+        margin: 0;
+    }
+}
